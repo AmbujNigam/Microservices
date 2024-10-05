@@ -1,0 +1,13 @@
+package in.pwskills.ambuj;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudCartServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudCartServiceApplication.class, args);
+	}
+
+}

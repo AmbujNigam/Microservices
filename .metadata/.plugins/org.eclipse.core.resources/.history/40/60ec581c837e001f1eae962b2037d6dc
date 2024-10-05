@@ -1,0 +1,5 @@
+package in.pwskills.ambuj.consumer;
+
+public interface ICartConsumer {
+
+}

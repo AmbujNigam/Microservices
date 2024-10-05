@@ -1,0 +1,9 @@
+#service name
+spring.application.name=CART-SERVICE
+
+#server port
+server.port = 9993
+
+spring.config.import=optional:configserver:http://localhost:8888
+
+management.endpoints.web.exposure.include=*

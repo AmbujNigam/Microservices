@@ -1,0 +1,15 @@
+package in.pwskills.ambuj.services;
+
+import org.springframework.http.HttpHeaders;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FetchLatestDataFromProps {
+	
+	@Scheduled(cron = "10 * * * * *")
+	public void fetch{
+		HttpHeaders headers = new HttpHeaders() ;
+		headers.
+	}
+}
